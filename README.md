@@ -1,5 +1,6 @@
 # bunyan-kafka
-This is a Kafka bunyan plugin. It allows you to stream your bunyan logs to
+This is a [bunyan](https://github.com/trentm/node-bunyan) plugin for Apache
+[Kafka](https://kafka.apache.org/). It allows you to stream your bunyan logs to
 Kafka. You can then forward the logs on to some other distributed processing
 framework, such as Elasticsearch.
 
