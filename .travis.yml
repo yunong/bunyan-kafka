@@ -4,4 +4,4 @@ node_js:
    - "iojs"
 
 before_install
-   - sudo apt-get install kafka
+   - sudo apt-get install -y kafka
