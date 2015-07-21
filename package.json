@@ -1,0 +1,40 @@
+{
+  "name": "bunyan-kafka",
+  "version": "1.0.0",
+  "description": "bunyan kafka plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunong/bunyan-kafka.git"
+  },
+  "keywords": [
+    "bunyan",
+    "kakfa",
+    "logs",
+    "json",
+    "logging",
+    "log"
+  ],
+  "author": "Yunong J Xiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yunong/bunyan-kafka/issues"
+  },
+  "homepage": "https://github.com/yunong/bunyan-kafka#readme",
+  "dependencies": {
+    "assert-plus": "0.1.5",
+    "bunyan": "1.4.0",
+    "kafka-node": "0.2.27"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "eslint": "0.24.0",
+    "istanbul": "^0.3.17",
+    "jscs": "1.13.1",
+    "mocha": "^2.2.5",
+    "uuid": "^2.0.1"
+  }
+}
