@@ -5,9 +5,9 @@ Kafka. You can then forward the logs on to some other distributed processing
 framework, such as Elasticsearch.
 
 ## Usage
-Since the stream needs to connect to kafka, and thus we have to instantiate it
+The stream needs to connect to kafka, and thus we have to instantiate it
 asynchronously and add the stream to the logger after the `ready` event has been
-emitted.
+emitted. We use `bunyan`'s `addStream()` API to accomplish this.
 
 ```js
 var KafkaStream = require('kafka-stream');
