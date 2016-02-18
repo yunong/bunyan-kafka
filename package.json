@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/yunong/bunyan-kafka#readme",
   "dependencies": {
-    "assert-plus": "0.1.5",
-    "bunyan": "1.5.1",
-    "kafka-node": "0.3.1"
+    "assert-plus": "^0.1.5",
+    "bunyan": "^1.6.0",
+    "kafka-node": "^0.3.1"
   },
   "devDependencies": {
     "chai": "^3.0.0",
